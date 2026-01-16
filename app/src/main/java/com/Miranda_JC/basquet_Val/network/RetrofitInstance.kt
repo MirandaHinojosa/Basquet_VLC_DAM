@@ -28,7 +28,6 @@ object RetrofitInstance {
 
     //creamos Gson para conver json a objetos kotlin
     private val gson = GsonBuilder()
-        .setDateFormat("yyyy-MM-dd HH:mm:ss")
         .setDateFormat("yyyy-MM-dd")
         .serializeNulls()
         .create()
