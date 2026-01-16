@@ -22,7 +22,7 @@ data class Estadistica(
     val tirosTresIntentados: Int? = null,
     val tirosTresAcertados: Int? = null
 ) {
-
+    //Propiedes calculadas, datos de solo lectura para gráfico cuando se implementen.
     val porcentajeTL: Float
         get() = if ((tirosLibresIntentados ?: 0) > 0) {
             ((tirosLibresAcertados?.toFloat() ?: 0f) / (tirosLibresIntentados ?: 1) * 100)
