@@ -11,7 +11,6 @@ data class Clasificacion(
     @SerializedName("partidos_ganados") val partidosGanados: Int,
     @SerializedName("partidos_perdidos") val partidosPerdidos: Int,
     @SerializedName("puntos_clasificacion") val puntosClasificacion: Int,
-    // Campos denormalizados para facilitar la visualización
     @SerializedName("equipo_nombre") val equipoNombre: String? = null,
     @SerializedName("club_nombre") val clubNombre: String? = null,
     @SerializedName("puntos_favor") val puntosFavor: Int? = null,
