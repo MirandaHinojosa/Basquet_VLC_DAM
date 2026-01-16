@@ -78,7 +78,7 @@ fun ClubesScreen(navController: NavHostController) {
                         verticalArrangement = Arrangement.Center
                     ) {
                         Text(
-                            text = if (searchQuery.isNotBlank()) { // CAMBIA AQUÍ
+                            text = if (searchQuery.isNotBlank()) {
                                 "No se encontraron clubes con esa búsqueda"
                             } else {
                                 "No hay clubes disponibles"
