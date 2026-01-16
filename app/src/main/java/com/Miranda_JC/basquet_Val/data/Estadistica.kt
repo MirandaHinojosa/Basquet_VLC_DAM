@@ -9,7 +9,7 @@ data class Estadistica(
     val asistencias: Int = 0,
     val robos: Int = 0,
     val tapones: Int = 0,
-    val perdidas: Int = 0, // Nuevo campo
+    val perdidas: Int = 0, 
     val faltas: Int = 0,
     val minutosJugados: Float? = null,
     val jugadorNombre: String? = null,
